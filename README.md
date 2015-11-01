@@ -1,5 +1,5 @@
 # ppq
-This is only useful for debian based systmes.
+This is only useful for debian based systems.
 
 Python Package Query (A apt clone of rpm -qa and -ql from rpm based systems)
 
@@ -18,6 +18,7 @@ optional arguments:
   -ql Package    List files installed by package
 ```
 
+## deb
 To create and install a .deb of this script
 
 ```
