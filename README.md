@@ -23,6 +23,8 @@ To create and install a .deb of this script
 
 ```
 apt-get install python-stdeb fakeroot python-all dh-python
+python setup.py --command-packages=stdeb.command bdist_deb
+
 ```
 
 Then dpkg -i the resulting .deb created
